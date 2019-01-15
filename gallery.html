@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bhagwati Enterprises</title>
+
+  <!-- Favicons -->
+  <link href="img/BE icon.png" rel="icon">
+  
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+ <link href="css/1.css" rel="stylesheet" />
+ <link href="css/hover-box.css" rel="stylesheet" />
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- =======================================================
+    Theme Name: Bhagwati Enterprises
+    Designed by: HI-FI SYSTEMS
+    URL: http://hifisystems.co.in
+  ======================================================= -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.filter_box {
+  		padding-right: 5px;
+  		padding-left: 5px;
+  		margin-bottom: 10px;
+  	}
+
+  	.hvrbox {
+  		background: #aac3e0;
+  		color: #fff;
+  		border:2px solid #62b1e3;
+  		display: block;
+  		text-align: center;
+  	}
+  	.hvrbox h3 {
+  		font-weight: 700;
+
+  	}
+
+  	.hvrbox p {
+  		font-size: 14px;
+  		margin: 8px;
+		color: black;
+ 
+  	}
+
+  	.hvrbox a {
+  		color: #000;
+  		display: block;
+  		padding: 15px;
+  	}
+
+  	.hvrbox a:hover {
+  		color: red;
+  		text-decoration: none;
+  	}
+	
+	@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+		.hvrbox p {
+  		font-size: 12px;
+  		margin: 8px;
+		color: black;
+		height:15px;
+  	}
+}
+
+@media (max-width: 767px) {
+		.hvrbox p {
+  		font-size: 10px;
+  		margin: 8px;
+		color: black;
+ 
+  	}
+
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		    $(".filter-button").click(function(){
+		        var value = $(this).attr('data-filter');
+		        
+		        if(value == "all")
+		        {
+		            //$('.filter').removeClass('hidden');
+		            $('.filter').show('1000');
+		        }
+		        else
+		        {
+		//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+		//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+		            $(".filter").not('.'+value).hide('3000');
+		            $('.filter').filter('.'+value).show('3000');
+		            
+		        }
+		    });
+		    
+		    if ($(".filter-button").removeClass("active")) {
+				$(this).removeClass("active");
+			}
+			$(this).addClass("active");
+
+		});
+	</script>
+
+
+</head>
+<body>
+
+<header id="header" class="header-area">
+    <nav class="navbar navbar-default navbar-static-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+          <div class="navbar-brand">
+            <a href="index.html"><img src="img/Logos/BE logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html">Home</a></li>
+              <li role="presentation"><a href="about.html">About Us</a></li>
+              <li role="presentation"><a href="services.html">Services</a></li>
+              <li role="presentation"><a href="3.html" class="active">Gallery</a></li>
+              <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+  </header>
+  
+  
+<!--<div class="main" style='top:400px;'>-->
+<div class="gallery">
+    <div class="text-center">
+      <div style="margin-top:70px">
+	  </div>
+    </div>
+<div class="container">
+    	<div class="card">
+		  	<div class="card-header text-center display-4">
+		    	PRODUCT PORTFOLIO
+		  	</div>
+
+		  	<div class="card-body">
+		    	<div class="row">
+		    		<div class="col-md-12 text-center">
+			            <button class="btn btn-outline-success filter-button" data-filter="all">All</button>
+			            <button class="btn btn-outline-success filter-button" data-filter="Supreme">Supreme</button>
+			            <button class="btn btn-outline-success filter-button" data-filter="Wilo">Wilo</button>
+			            <button class="btn btn-outline-success filter-button" data-filter="V-Guard">V-Guard</button>
+			            <button class="btn btn-outline-success filter-button" data-filter="Preet-RO">Preet-RO</button>
+			        </div>
+		    	</div>
+
+		    	<div class="row mt-4">
+	    			<div class="col-md-3 filter_box filter Supreme">
+		                <div class="hvrbox">
+                      
+                                <h3><img src="img/Products/Supreme/Solar water heater.jpg" alt="Supreme Solar Geyser" style="width:100%"></h3>
+                                <p>PC Supreme Water Heater<div class="hvrbox-layer_top">
+	<div class="hvrbox-text">100LPD Suitable for 2 to 3 Members<br>150LPD Suitable for 3 to 4 Members<br>200LPD Suitable for 4 to 5 Members<br>250LPD Suitable for 5 to 6 Members<br>300LPD Suitable for 6 to 8 Members<br>500LPD Suitable for 10 to 12 Members<br>
+	</div>
+	</div> </p>                          
+                          
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Preet-RO">
+		                <div class="hvrbox">
+                          
+                                <h3><img src="img/Products/Preet-ro/Preet RO.jpg" alt="Preet-RO Water Purifier" style="width:100%"></h3>  
+                                <p>Preet-RO Water Purifier<div class="hvrbox-layer_top">
+	<div class="hvrbox-text">15 ltrs/hr Purification Capacity<br>Wall Mounting<br>Fully Automatic ON & OFF System</div>
+	</div> </p>                                                      
+
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter V-Guard">
+		                <div class="hvrbox">
+                           
+                                <h3><img src="img/Products/V-Guard/Solar Water Heater V Guard.jpg" alt="Supreme Solar Geyser" style="width:100%"></h3> 
+                                <p>V-Guard Solar Heater<div class="hvrbox-layer_top">
+	<div class="hvrbox-text">100LPD	Suitable for 2 to 3 Members<br>125LPD Suitable for 3 to 4 Members<br>150LPD	Suitable for 4 to 5 Members<br>200LPD Suitable for 5 to 6 Members<br>250LPD	Suitable for 6 to 7 Members<br>300LPD Suitable for 7 to 8 Members<br></div>
+	</div> </p>                                                      
+                            
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Supreme">
+		                <div class="hvrbox">
+                            
+                                <h3><img src="img/Products/Supreme/Supreme Flames - Kitchen Chimneys.jpg" alt="Supreme Chimney" style="width:100%"></h3>
+                                <p>Kitchen Chimneys<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text">Crown SL /90cm <br> SSH 8 <br> 2 speed push button <br> <br><b>Relaunch</b></div>
+	</div></p>                                                      
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Wilo">
+		                <div class="hvrbox">
+                            
+                                <h3><img src="img/Products/Wilo/Single pump booster (SS impeller) - HWJ.jpg" alt="Single pump booster" style="width:100%"></h3>                    
+								<p>Pump Booster<div class="hvrbox-layer_top"> 
+									<div class="hvrbox-text">Single pump booster (SS impeller) - HWJ</div>
+	</div> </p>                                                    
+                        
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Wilo">
+		                <div class="hvrbox">
+                           
+                                <h3><img src="img/Products/Wilo/Multistage pressure booster system with VFD (SS impeller).jpg" alt="Multistage pressure booster system " style="width:100%"></h3>
+                                <p>Multistage Pressure Booster System<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text">Multistage pressure booster system with VFD (SS impeller).</div>
+	</div></p>                                                    
+                           
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Wilo">
+		                <div class="hvrbox">
+                          
+                                <h3><img src="img/Products/Wilo/Self-priming non-clog pumpset - MNC.jpg" alt="Self-priming non-clog pumpset" style="width:100%"></h3>
+                                <p>Self-priming non-clog pumpset<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text">Self-priming non-clog pumpset</div>
+	</div></p>                                                  
+                          
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Supreme">
+		                <div class="hvrbox">
+                         
+                                <h3><img src="img/Products/Supreme/FPC Solar Water Heaters.jpg" alt="Supreme Solar Geyser" style="width:100%"></h3>
+                                <p>FPC Solar Water Heaters<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text">100LPD Suitable for 2 to 3 Members<br>150LPD Suitable for 3 to 4 Members<br>200LPD Suitable for 4 to 5 Members<br>250LPD Suitable for 5 to 6 Members<br>300LPD Suitable for 6 to 8 Members<br>500LPD Suitable for 10 to 12 Members<br></div></div></p>                                                     
+                           
+                        </div>
+		            </div>
+		            
+		            <div class="col-md-3 filter_box filter Supreme">
+		                <div class="hvrbox">
+                                <h3><img src="img/Products/Supreme/geyser.jpg" alt="Supreme Solar Geyser" style="width:100%"></h3>
+                                <p>Supreme Vertical Geyser<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text">SPWH 25 Vertical<br> Volume - 25 Ltrs & 15 Ltrs<br> Power 200 wts</div></div></p>                                                    
+                           
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter Supreme">
+		                <div class="hvrbox">
+                           
+                                <h3><img src="img/Products/Supreme/Supreme Geyser.jpg" alt="Supreme Solar Geyser" style="width:100%"></h3>
+                                <p>Supreme Horizontal Geyser<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text"> SPWH 25 Vertical<br>Volume - 25 Ltrs & 15 Ltrs<br> Power 200 wts</div></div> </p>                                                     
+                           
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter wilo">
+		                <div class="hvrbox">
+                           
+                               <h3><img src="img/Products/Wilo/Single pump booster (SS Impeller) - FWJ.jpg" alt="Single pump booster" style="width:100%"></h3>
+                                <p>Single pump booster (SS Impeller) - FWJ<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text"> Single pump booster (SS Impeller) - FWJ</div></div> </p>
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter wilo">
+		                <div class="hvrbox">
+                                      <h3><img src="img/Products/Wilo/Self-priming mini pumpset - Wilo Mini-Wilo Crown.jpg" alt="                        Self-priming mini pumpset" style="width:100%"></h3>
+                                <p>Single pump booster (SS Impeller) - FWJ<div class="hvrbox-layer_top"> 
+	<div class="hvrbox-text"> Single pump booster (SS Impeller) - FWJ</div></div> </p>
+                        </div>                                              
+                            
+                        </div>
+		            </div>
+		           <!-- <div class="col-md-3 filter_box filter rajshahi">
+		                <div class="hvrbox">
+                            <a href="#">
+                                <h3>নওগাঁ</h3>
+                                <p><strong>বিভাগ:</strong> রাজশাহী </p>                                                
+                            </a>
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter rajshahi">
+		                <div class="hvrbox">
+                            <a href="#">
+                                <h3>নাটোর</h3>
+                                <p><strong>বিভাগ:</strong> রাজশাহী </p>                                            
+                            </a>
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter rajshahi">
+		                <div class="hvrbox">
+                            <a href="#">
+                                <h3>চাঁপাইনবাবগঞ্জ</h3>
+                                <p><strong>বিভাগ:</strong> রাজশাহী </p>                                        
+                            </a>
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter rajshahi">
+		                <div class="hvrbox">
+                            <a href="#">
+                                <h3>পাবনা</h3>
+                                <p><strong>বিভাগ:</strong> রাজশাহী </p>                                      
+                            </a>
+                        </div>
+		            </div>
+		            <div class="col-md-3 filter_box filter rajshahi">
+		                <div class="hvrbox">
+                            <a href="#">
+                                <h3>সিরাজগঞ্জ</h3>
+                                <p><strong>বিভাগ:</strong> রাজশাহী </p>                                       
+                            </a>
+                        </div>
+		            </div>
+		    	</div>
+
+		  	</div>
+		  </div-->
+		  </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- MAIN (Center website)  -->
+
+  <footer>
+    <div class="container">
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <h4>Contact Us</h4>
+       <div class="contact-info">
+          <ul>
+            <i class="fa fa-home fa"></i> Shop No: 8, Kamson Regency, Next to Apex 2001, B.B. Borkar Road, Alto Porvorim, Bardez, Goa - 403 521<br/><br/>
+            <li><i class="fa fa-phone fa"></i> <a href="tel: +91 080077-21118">080077-21118</a>, <a href="tel: +919673009118">9673009118</a></li>
+			<li><i class="fa fa-envelope fa"></i><a href="mailto:bhagwatienterprises1655@gmail.com"> bhagwatienterprises1655@gmail.com</a></li>
+		  </ul>
+        
+          <ul class="social-network">
+           <li><a href="https://www.facebook.com/bhagwatienterprises08/" class="fb tool-tip" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="https://www.youtube.com/channel/UC_bZUI87ywJ_Km_ChL4-bug" class="ytube tool-tip" title="You Tube"  target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="col-md-8 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="text-center">
+          <h4>Photo Gallery</h4>
+          <ul class="sidebar-gallery">
+            <li><a href="#"><img src="img/works/1.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="img/works/2.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="img/works/3.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="img/works/4.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="img/works/5.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="img/works/6.jpg" alt="" /></a></li>
+		
+          </ul>
+        </div>
+      </div>
+</div>  
+</footer>
+
+  <div class="sub-footer">
+    <div class="container">      
+        <div class="copyright">
+           Designed by <a target="_blank" href="http://hifisystems.co.in/">HI-FI SYSTEMS</a>
+          </div>
+      </div>
+  </div>
+
+	
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/1.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+
+</body>
+</html>
